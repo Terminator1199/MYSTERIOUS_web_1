@@ -1,0 +1,143 @@
+body {
+    
+    
+    font-family: "Architects Daughter";
+    font-size: 24px;
+    
+    
+}
+
+
+.search-box {
+    
+    transform: translate(-50%,-50%);
+    background:lightblue;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px 0 50px 320px;
+    position: fixed;
+}
+/*.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+}*/
+
+
+.search-btn {
+    color: gray;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+}
+
+.main {
+    align-items: center;
+    margin: 80px 0  50px 180px;
+    /* z-index: 10; */
+    display: flex;
+    position: fixed;
+        
+}
+.note-img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.heading {
+    padding: 10px;
+
+}
+.heading:hover {
+    color: red;
+}
+
+/* .note-img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    border-radius: 15%;
+    float: left;
+    margin: 60px 0 10px 170px;
+    
+    
+}
+.heading {
+    
+    position: fixed;
+    left: 20%;
+    float: right;
+    font-size: 50px;
+    align-items: center;
+    margin: 0;
+} */
+
+
+.main-container {
+    background: red;
+    width: 45%;
+    margin: auto;
+    display: block;
+    float: left;
+}
+
+.container3 {
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+    
+}
+
+textarea {
+    box-shadow: 10px 10px 24px 0 rgb(0, 0, 0.75);
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 5%;
+    padding: 40px 25px 25px 25px;
+    margin: 10px;
+}
+
+.side-container {
+    position: fixed;
+    width: 45%;
+    top: 2px;
+    right: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.study-img {
+    
+    float: left;
+    width: 600px;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 15px;    
+}
+
